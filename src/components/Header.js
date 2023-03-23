@@ -4,7 +4,7 @@ import React from 'react'
 const Header = () => {
     return (
         <>
-            <header className='bg-white h-20 flex items-center justify-between px-8'>
+            <header className='bg-white h-20 flex items-center justify-between px-8 sticky top-0 z-20'>
                 <div>
                     <img className='h-[10vh] w-[30vh] outline-none' src='https://static.startuptalky.com/2021/07/livspace-logo-startuptalky.jpg' alt='' />
                 </div>
