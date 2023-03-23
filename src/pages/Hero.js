@@ -1,12 +1,13 @@
 import React from 'react'
 
 // img
-import img1 from '..///'
+// import img1 from '..///'
 
 const Hero = () => {
   return (
     <>
-      <div className='live_main h-full relative flex '>
+    <section className='hero_section'>
+      <div className='live_main relative flex '>
         <div className='z-20 text-white mt-[20vh] max-w-[920px] lg:text-[68px] '>
           <h1 className=' text-white text-5xl leading-9 font-bold px-[12vh] '>Bring home beautiful</h1>
           <p className='text-white text-5xl leading-9 font-bold px-[12vh] py-4 '>
@@ -25,9 +26,9 @@ const Hero = () => {
         <div className='lives_info justify-center items-center '>
           <div className='bg-white absolute h-[90vh]  rounded-lg w-[70vh] text-black top-[15%] right-22 items-center justify-center text-center'>
             <form >
-              <div className='flex-col py-10'>
+              <div className='flex-col py-4'>
                 <h1 className='text-2xl font-bold'>Designs for Every Budget</h1>
-                <div className='mb-3 pt-4'>
+                <div className='mb-3 pt-8'>
                   <input className='px-3 py-4 w-[50vh] outline-2 outline-amber-900 placeholder-slate-300 text-slate-600 relative bg-white  rounded text-sm border-0 shadow outline-none focus:outline-none focus:ring ' type="text" name="fname" placeholder='Name' />
                 </div>
                 <div className='mb-3 pt-4'>
@@ -47,14 +48,16 @@ const Hero = () => {
                 <div class="mb-3 pt-3">
                 <button type='Submit' className='btn btn-primary bg-red-600 text-white py-4 px-8 rounded-full uppercase' >get free quote</button>
               </div>
-              <div className=' items-center text-center justify-center'>
-              <p className='text-sm '>By submitting this form, you agree to the <spam className='text-red-600'>privacy policy</spam> & <spam className='text-red-600'> terms and conditions</spam></p>
+              <div className=' mb-3 items-center text-center justify-center'>
+              <p className='text-sm px-[9vh] '>By submitting this form, you agree to the <spam className='text-red-600'>privacy policy</spam> & <spam className='text-red-600'> terms and conditions</spam></p>
               </div>
               </div>
             </form>
           </div>
         </div>
+        <p>sjhgyudgd</p>
       </div>
+      </section>
     </>
   )
 }
