@@ -13,7 +13,7 @@ const Hero = () => {
 
             <div className='flex items-center absolute top-8 '>
               {/* left section */}
-              <div className='z-20 text-white mt-[30vh] max-w-[920px] lg:text-[68px] '>
+              <div className=' text-white mt-[30vh] max-w-[920px] lg:text-[68px] '>
                 <h1 className=' text-white text-5xl leading-9 font-bold px-[12vh] '>Bring home beautiful</h1>
                 <p className='text-white text-5xl leading-9 font-bold px-[12vh] py-4 '>
                   interiors<spam className='text-yellow-400 '>  that fit your budget</spam>
