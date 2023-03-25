@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 // img
 // import img1 from '..///'
@@ -20,6 +20,13 @@ const Hero = () => {
     setUser({ ...user, [name]: value })
 
   }
+  useEffect(() => {
+  
+    postData();
+    // setErrors(validation(user))
+    
+  }, )
+  
 
   const postData = async (e) => {
     e.preventDefault();
@@ -70,7 +77,7 @@ const Hero = () => {
       errors.email = "email is invilid"
     } if (!user.phone) {
       errors.phone = "please fill the phone number"
-    } else if (user.phone.length <= 10) {
+    } else if (user.phone.length <= 9) {
       errors.phone = "plese fill the 10 number"
     } if (!user.property) {
       errors.property = "please fill the property"
