@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/LIVESPACE/static/css/main.075e1b24.css",
+    "main.js": "/LIVESPACE/static/js/main.98b83541.js",
+    "static/js/787.a73ea30d.chunk.js": "/LIVESPACE/static/js/787.a73ea30d.chunk.js",
+    "index.html": "/LIVESPACE/index.html",
+    "main.075e1b24.css.map": "/LIVESPACE/static/css/main.075e1b24.css.map",
+    "main.98b83541.js.map": "/LIVESPACE/static/js/main.98b83541.js.map",
+    "787.a73ea30d.chunk.js.map": "/LIVESPACE/static/js/787.a73ea30d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.075e1b24.css",
+    "static/js/main.98b83541.js"
+  ]
+}
